@@ -1,0 +1,103 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.table-responsive{
+  overflow: hidden !important;
+}
+
+.spinner-container{
+  position: absolute; 
+  width: 100%;
+  height: 100%; 
+  left: 0; 
+  top: 0; 
+  background-color: #dc354525; 
+  z-index: 2000; 
+  border-radius: 12px;
+}
+
+.checkered{
+  font-weight: bold !important;
+}
+
+label{
+  position: initial !important;
+}
+.required:after {
+  content: " *";
+  color: red;
+}
+
+.google-maps {
+  position: relative;
+  padding-bottom: 75%;
+  height: 0;
+  overflow: hidden;
+}
+.google-maps iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.bg-facebook {
+  background-color: #3b5998;
+}
+.bg-twitter {
+  background-color: #1da1f2;
+}
+.bg-google {
+  background-color: #ea4335;
+}
+.bg-instagram {
+  background-color: #e1306c;
+}
+
+.bs-cover {
+  background-size: cover;
+}
+
+.r-0 {
+  right: 0;
+}
+.mw-180 {
+  max-width: 180px;
+}
+.mw-140 {
+  max-width: 140px;
+}
+.i-va{
+  vertical-align: -0.125em;
+}
+
+.breadcrumb {
+  padding: 0.5rem 1rem;
+  background-color: #e9ecef;
+}
+
+.badge-color{
+  padding: 10px;
+  margin: 10px;
+  display: inline-block;
+  color: white;
+  border-radius: 5px;
+}
+
+.color-close-btn{
+  border: none;
+  margin-left: 3px;
+  border-radius: 5px;
+}

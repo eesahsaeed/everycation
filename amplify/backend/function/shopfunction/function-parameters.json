@@ -1,0 +1,35 @@
+{
+  "permissions": {
+    "function": {
+      "everycation851dfee1PostConfirmation": [
+        "create",
+        "read",
+        "update",
+        "delete"
+      ]
+    },
+    "auth": {
+      "everycation851dfee1": [
+        "create",
+        "read",
+        "update",
+        "delete"
+      ]
+    },
+    "storage": {
+      "s3cb8f8047": [
+        "create",
+        "read",
+        "update",
+        "delete"
+      ],
+      "shoptable": [
+        "create",
+        "read",
+        "update",
+        "delete"
+      ]
+    }
+  },
+  "lambdaLayers": []
+}
